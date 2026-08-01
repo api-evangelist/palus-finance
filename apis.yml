@@ -1,7 +1,30 @@
 aid: palus-finance
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/palus-finance.png
 name: Palus Finance
-description: Palus Finance is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Palus Finance is a Y Combinator (Winter 2026) financial-advisory startup that
+  acts as a startup's outsourced financial advisor and Registered Investment
+  Advisor (RIA) with a fiduciary duty to its clients. Palus automatically manages
+  a company's reserve cash and treasury, sweeping idle balances into NVCA-compliant
+  bond portfolios built from U.S. government securities and T-Bills to optimize
+  yield (targeting roughly a SOFR + 1% spread) while preserving safety and
+  liquidity. It connects to a company's existing bank accounts (via Plaid) rather
+  than requiring an account switch, sizes allocations against runway and burn rate,
+  and can be set up in under ten minutes with no minimums or lockups. Palus is a
+  managed, human-plus-software advisory product delivered through its web
+  application; it does not currently publish a public developer API, SDKs, or
+  developer documentation.
 url: https://raw.githubusercontent.com/api-evangelist/palus-finance/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +32,40 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-founders:
+- FN: Sam Lushtak
+  role: CEO
+- FN: Michael Gonzalez
+  role: CTO
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Financial Services
+- Fintech
+- Treasury Management
+- Cash Management
+- Wealth Management
+- Registered Investment Advisor
+- Startups
 apis: []
+common:
+- type: Website
+  url: https://palus.finance
+- type: SignUp
+  url: https://palus.finance
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: >-
+    Confirmed no public API, SDK, or developer surface. Managed RIA / treasury
+    advisory web product (YC W26). Identity hygiene only; no scored API artifacts
+    to produce without fabrication.
