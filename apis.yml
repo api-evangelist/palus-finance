@@ -53,7 +53,7 @@ created: '2026-07-17'
 modified: '2026-07-20'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Treasury Management
 - Cash Management
@@ -69,6 +69,7 @@ tags_raw:
 - Wealth Management
 - Registered Investment Advisor
 - Startups
+- Financial-Services
 apis: []
 common:
 - type: Website
