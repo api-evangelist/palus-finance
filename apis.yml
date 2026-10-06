@@ -50,7 +50,7 @@ x-founders:
   role: CTO
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 tags:
 - Company
 - Financial Services
@@ -72,6 +72,8 @@ tags_raw:
 - Financial-Services
 apis: []
 common:
+- url: https://blog.palus.finance/feed
+  type: BlogRSS
 - type: Website
   url: https://palus.finance
 - type: SignUp
